@@ -13,8 +13,6 @@ public class MainFactoryMethod {
 		display.setCaracteristicas("preto, fino, leve");
 		display.montar();
 
-
-
 		
 	}
 

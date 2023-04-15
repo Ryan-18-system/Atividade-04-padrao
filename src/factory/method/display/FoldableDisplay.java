@@ -11,7 +11,7 @@ public abstract  class FoldableDisplay {
         this.features = features;
     }
     public  void create(){
-        System.out.println("CRIANDO DISPLAY PADRAO");
+        System.out.println("CRIANDO DISPLAY DOBRAVEL");
         System.out.println("RODANDO TESTE");
         this.qualiTest();
         System.out.println("Essas são as suas características "+ features);
