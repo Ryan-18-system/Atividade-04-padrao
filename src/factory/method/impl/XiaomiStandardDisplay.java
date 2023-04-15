@@ -11,6 +11,15 @@ public class XiaomiStandardDisplay extends StandardDisplay {
     public void setCaracteristicas(String features){
         super.features = features;
     }
+
+    @Override
+    protected void montar() {
+        System.out.println("CRIANDO DISPLAY PADRAO");
+        System.out.println("Essas são as suas características "+ super.features);
+        System.out.println("RODANDO TESTE");
+
+    }
+
     @Override
     protected void qualiTest() {
         System.out.print("Teste de Qualidade: ");

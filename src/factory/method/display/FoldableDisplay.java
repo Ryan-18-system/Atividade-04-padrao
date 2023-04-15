@@ -10,12 +10,11 @@ public abstract  class FoldableDisplay {
     public void setCaracteristicas(String features){
         this.features = features;
     }
-    public  void create(){
-        System.out.println("CRIANDO DISPLAY DOBRAVEL");
-        System.out.println("RODANDO TESTE");
+    public void fluxoCompleto(){
+        this.montar();
         this.qualiTest();
-        System.out.println("Essas são as suas características "+ features);
-    };
+    }
+    public  abstract void montar();
     protected  abstract void qualiTest();
 
 }

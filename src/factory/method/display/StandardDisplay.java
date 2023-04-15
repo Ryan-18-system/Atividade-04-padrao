@@ -10,11 +10,11 @@ public abstract class StandardDisplay {
     public void setCaracteristicas(String features){
         this.features = features;
     }
-    public void montar(){
-        System.out.println("CRIANDO DISPLAY PADRAO");
-        System.out.println("RODANDO TESTE");
+
+    public void fluxoComplexo(){
+        this.montar();
         this.qualiTest();
-        System.out.println("Essas são as suas características "+ features);
     }
+    protected abstract void montar();
     protected  abstract void qualiTest();
 }

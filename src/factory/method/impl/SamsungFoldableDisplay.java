@@ -12,6 +12,13 @@ public class SamsungFoldableDisplay extends FoldableDisplay {
     }
 
     @Override
+    public void montar() {
+        System.out.println("CRIANDO DISPLAY DOBRAVEL");
+        System.out.println("Essas são as suas características "+ super.features);
+        System.out.println("RODANDO TESTE");
+    }
+
+    @Override
     protected void qualiTest() {
         System.out.print("Teste de Qualidade: ");
         for (int i = 1; i < 4; i++) {

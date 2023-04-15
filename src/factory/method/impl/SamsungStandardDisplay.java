@@ -11,6 +11,13 @@ public class SamsungStandardDisplay extends StandardDisplay {
         super(inches);
     }
 
+    @Override
+    protected void montar() {
+        System.out.println("CRIANDO DISPLAY PADRAO");
+        System.out.println("Essas são as suas características "+ super.features);
+        System.out.println("RODANDO TESTE");
+
+    }
 
 
     @Override
